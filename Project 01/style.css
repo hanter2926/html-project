@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    font-size: 15px;
+    grid-auto-columns: 90px;
+    display: flex;
+    gap: 50px;
+    
+}
+.logo ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none ;
+}
+.but{
+    background-color: rgb(60, 60, 197);
+    font-size: 13px;
+}
+.complit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 17px;
+}
+ 
+.ready{
+    font-size: 60px;
+    display: flex;
+    /* display: inline-block; */
+} 
+.ready p{
+    margin-top: 60px;
+}
+.see{
+    background-color: blue;
+    margin: 80px;
+    font-size: 25px;
+}
+/* .pass img{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+    height: 40px;
+} */
+button{
+    border-radius: 7px;
+}
+/* .ready img{
+    height: 500px;
+    margin-left: 700px;
+    margin-bottom: 200px;
+} */
+ .happy{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+ }
+ .happy p{
+    font-size: 150px;
+ }
