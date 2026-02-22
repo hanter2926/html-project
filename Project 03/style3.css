@@ -1,0 +1,80 @@
+.uper{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 7px;
+}
+.uper img{
+    size: 2px;
+    padding: 10px;
+}
+.uper ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 7px;
+} 
+.middil img{
+    padding: 50px;
+    height: 400px;
+    width: 350px;
+}
+.middil{
+    display: flex;
+    flex-direction: row;
+}  
+.miner{
+    display: flex;
+    flex-direction: row;
+    /* height: 30px;
+    width: 30px; */
+} 
+.miner img{
+    padding-right: 500px;
+    /* animation-duration: 60px; */
+    height: 38px;
+    width: 42px;
+}
+.coin{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;     
+}
+.now{
+    margin-left: 200px;
+    margin-top: 80px;
+  
+}
+p{
+    font-size: 17px;
+    margin-left: 70px;
+    margin-bottom: -20px;
+}
+p :nth-last-child(3){
+    margin-left: 290px;
+    margin-top: 40px 
+
+
+}
+h1{
+    font-size: 65px;
+}
+h2{
+   margin-left: 280px;
+   margin-top: 40px  
+}
+.smart{
+    margin-left: 480px;
+    margin-top: -400px; 
+
+}
+.top{
+    margin-top: -70px;
+    height: 20px;
+    width: 25px;
+    
+}
+.lower{
+     margin-left: 242px;
+     margin-top: 35px
+}
