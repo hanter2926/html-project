@@ -1,0 +1,43 @@
+.uper ul{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.uper ul :nth-child(1){
+    font-weight: bold;
+}
+.uper ul  img{
+    size: 10px;
+}
+.lower ul{
+    display: flex;
+    flex-direction: row;
+   gap: 180px;
+
+}
+.lower{
+    margin-top: 100px;
+}
+.lower ul li img{
+    margin-top: 30px;
+    height: 150px;
+    width: 120;
+}
+.lower ul li img :nth-child(3){
+    margin-top: 100px;
+    margin-right: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(31, 117, 31);
+}
+p{
+    font-size: 10px;
+}
+h1{
+    font-size: 80px;
+}
+#one{
+    height: 20px;
+
+}
