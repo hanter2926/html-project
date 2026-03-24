@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header Styling */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Main Search Area */
+.container {
+   
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo {
+    width: 272px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+}
+
+/* Buttons Styling */
+.buttons{
+    /* margin-top: 200px; */
+    /* background-color: #ebeef3;  */
+    color: #ececec;
+    /* gap: 100px; */
+
+margin-left: 50px;
+}
+
+.buttons button {
+    background-color: #011d38;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #df5c45;
+    box-shadow: 0 1px 1px rgba(46, 8, 8, 0.1);
+}
+
+/* happy Text Styling */
+.happy-text {
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: -4px; /* Letters ko thoda paas lane ke liye */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Specific Colors for Each Letter */
+.happy-text-h1-blue {
+    color: #4285F4;
+}
+h1{
+    color: #EA4335;
+    
+}
+
+.a1{
+    color: #EA4335;
+}
+
+.p2{
+    color: #FBBC05;
+}
+
+.p3{
+    color: #4285F4;
+}
+
+.y{
+    color: #34A853;
+}
+
+.s{
+    color: #EA4335;
+}
+
